@@ -1,0 +1,15 @@
+{
+  "name": "fenrir-scan-ignore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sititou70",
+  "license": "MIT",
+  "dependencies": {
+    "iconv-lite": "^0.4.19",
+    "yamljs": "^0.3.0"
+  }
+}
