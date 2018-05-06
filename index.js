@@ -57,7 +57,8 @@ const isIgnoreDirectory = (dir, scanignore) =>
 
 const isAccessibleDirectory = dir_path => {
   try{
-    return fs.statSync(path.join(dir_path)).isDirectory();
+    fs.readdirSync(dir_path);
+    return fs.statSync(dir_path).isDirectory();
   }catch(e){
     return false;
   }
